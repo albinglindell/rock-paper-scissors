@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slutuppgift Albin Lindell</title>
+</head>
+<body>
+    <style>
+        body{
+            text-align: center;
+        }
+        .button{
+         padding: 50px;
+         font-size: 50px;
+        }      
+
+        #bild12{
+            display: none;
+            position: absolute;
+            left: 75%;
+            transform: translate(-50%);
+            
+        }
+        #bild22{
+            display: none;
+            position: absolute;
+            left: 75%;
+            transform: translate(-50%);
+            transform:scaleX(-1);
+            
+        }
+        #bild32{
+            display: none;
+            position: absolute;
+            left: 75%;
+            transform: translate(-50%);
+            transform:scaleX(-1) ;
+            
+        }
+        #bild1{
+            display: none;
+            position: absolute;
+            left: 25%;
+            transform: translate(-50%);
+            transform:scaleX(-1) ;
+        }
+        #bild2{
+            display: none;
+            position: absolute;
+            left: 25%;
+            transform: translate(-50%);
+        }
+        #bild3{
+            display: none;
+            position: absolute;
+            left: 25%;
+            transform: translate(-50%);
+        }
+
+    </style>
+    <input class="button" type="button" value="Sten" onclick="sten()">
+    <input class="button" type="button" value="Sax" onclick="sax()">
+    <input class="button" type="button" value="Påse" onclick="pase()">
+
+
+    <h1 id="match"></h1>
+    <div id="bild1"><img src="sten1.jpg" alt=""></div>
+    <div id="bild2"><img src="sax1.jpg" alt=""></div>
+    <div id="bild3"><img src="påse1.jpg" alt=""></div>
+     
+    <div id="bild12"><img src="sten1.jpg" alt=""></div>
+    <div id="bild22"> <img src="sax1.jpg" alt=""></div>
+    <div id="bild32"><img src="påse1.jpg" alt=""></div>
+    
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
